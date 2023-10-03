@@ -1,0 +1,13 @@
+GET http://localhost:3000/doctors
+
+###
+GET http://localhost:3000/doctors/2
+
+###
+
+POST http://localhost:3000/book-appointment/2
+Content-Type: application/json
+
+{
+  "day": "Tuesday"
+}
